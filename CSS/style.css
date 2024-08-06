@@ -1,0 +1,67 @@
+:root {
+  --green: #5FF493;
+  --dark-green: #47b16c;
+  --blue: #222438;
+  --dark-blue: #1c1e2e;
+}
+
+body {
+  background-color: var(--blue);
+  color: #FFF;
+  overflow-x: hidden;
+}
+
+.nav-pills .nav-link {
+  white-space: nowrap;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 16%;
+  background-color: var(--dark-blue);
+  border-right: 1px solid var(--dark-green);
+  padding-top: 1rem;
+  font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400 ;
+  font-style: normal;
+}
+
+.nav-link{
+  color: #FFF;
+}
+
+.nav-pills .nav-link.active {
+  background-color: var(--dark-green); /* Color de fondo para el botón activo */
+  color: var(--dark-blue); /* Color del texto para el botón activo */
+}
+
+hr{
+  color: var(--green);
+}
+
+.contenido {
+  margin-left: 20%;
+  margin-top: 10%;
+}
+
+h1{
+  margin-bottom: 10%;
+}
+
+.nombre {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--green);
+}
+
+.text h2 {
+  font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  font-weight: 300 ;
+  font-style: normal;
+}
